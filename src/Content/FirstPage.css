@@ -1,0 +1,81 @@
+/*First page*/
+.FirstPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    color: white;
+    height: 100vh;
+    margin: auto;
+    background-image: url("https://c.tenor.com/AJBv6U1rfkQAAAAC/background-image-galaxy.gif");
+    position: absolute;
+  }
+  
+  .typingEffect1 {
+      font-size: 4.5rem;
+      animation: pulsate 0.11s ease-in-out infinite alternate;     
+  }
+  @keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #5271ff,
+        0 0 80px #5271ff,
+        0 0 90px #5271ff,
+        0 0 100px #5271ff,
+        0 0 150px #5271ff;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #5271ff,
+      0 0 73px #5271ff,
+      0 0 80px #5271ff,
+      0 0 94px #5271ff,
+      0 0 140px #5271ff;
+  
+  }
+  }
+  .FirstPage a {
+    top: 50%;
+    margin-top: 2rem;
+    text-decoration: none;
+    animation: fadeIn 50s;
+    color: white;
+    font-size: 25px;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: "Balsamiq Sans", cursive;
+    text-decoration: none;
+    color: hsl(317 100% 54%);
+    border: hsl(317 100% 54%) 3px solid;
+    background-color: transparent;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    box-shadow: inset 0 0 0.5em 0 hsl(317 100% 54%), 0 0 0.5em 0 hsl(317 100% 54%);
+    transition: all 0.5s
+  }
+  
+  .FirstPage a:hover {
+    background-color: hsl(317 100% 54%);
+    color: #fff
+  }
+  
+
+  
+  /*First page ends here*/
+
